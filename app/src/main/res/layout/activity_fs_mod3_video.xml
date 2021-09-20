@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#383E56"
+    tools:context=".fsMod3VideoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/fs3_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="WS0towdwkrM"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/fs3_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="JUgRoQRX_rU"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/fs3_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="aiM4WePlWis"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

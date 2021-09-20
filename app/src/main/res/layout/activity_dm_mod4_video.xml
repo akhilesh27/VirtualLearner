@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".dmMod4VideoActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="O85_K8sGyQI"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="vG_UWIeEdkw"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="Onb8ZDqLiz8"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="XBChA_q5rUU"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="dGJ1-ibfD3I"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="SEXGa7OtR1U"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+            <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+                android:id="@+id/dm4_7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:videoId="RAG2s_Kz1Bg"
+                app:autoPlay="false"
+                app:showFullScreenButton="false"
+                app:showSeekBar="true"
+                app:showVideoDuration="true"
+                app:showVideoCurrentTime="true"
+                app:showYouTubeButton="true"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

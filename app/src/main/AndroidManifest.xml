@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.virtuallearner">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-permission-sdk-23 android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.VirtualLearner">
+        <activity android:name=".discussActivity" />
+        <activity android:name=".stLabVideoActivity" />
+        <activity android:name=".fsLabVideoActivity" />
+        <activity android:name=".madLabVideoActivity" />
+        <activity android:name=".dmMod5VideoActivity" />
+        <activity android:name=".dmMod4VideoActivity" />
+        <activity android:name=".dmMod3VideoActivity" />
+        <activity android:name=".dmMod2VideoActivity" />
+        <activity android:name=".dmMod1VideoActivity" />
+        <activity android:name=".dataMiningActivity" />
+        <activity android:name=".webMod3VideoActivity" />
+        <activity android:name=".webMod2VideoActivity" />
+        <activity android:name=".webMod1VideoActivity" />
+        <activity android:name=".webActivity" />
+        <activity android:name=".profileNavActivity" />
+        <activity android:name=".notesNavActivity" />
+        <activity android:name=".stMod2VideoActivity" />
+        <activity android:name=".stMod1VideoActivity" />
+        <activity android:name=".softwareTestingActivity" />
+        <activity android:name=".fsMod3VideoActivity" />
+        <activity android:name=".fsMod2VideoActivity" />
+        <activity android:name=".fsMod1VideoActivity" />
+        <activity android:name=".fileStructureActivity" />
+        <activity android:name=".VideoNavActivity" />
+        <activity android:name=".homeActivity" />
+        <activity android:name=".registrationActivity" />
+        <activity android:name=".loginActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
